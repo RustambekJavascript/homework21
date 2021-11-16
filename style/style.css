@@ -1,4 +1,12 @@
 a {
   color: #212832 !important;
 }
+
+#bg1 {
+  background: url("../img/Decore.png") no-repeat right;
+}
+
+#a1 a {
+  color: #686d77 !important;
+}
 /*# sourceMappingURL=style.css.map */

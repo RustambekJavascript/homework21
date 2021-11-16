@@ -1,3 +1,14 @@
+@import "color";
+
 a {
   color: #212832 !important;
+}
+#bg1 {
+  background: url("../img/Decore.png") no-repeat right;
+}
+
+#a1 {
+  a {
+    color: $color-main1 !important;
+  }
 }
