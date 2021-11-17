@@ -12,131 +12,136 @@
   </head>
   <body>
     <!-- navbar  start -->
+    <div class="bg-light">
+      <div class="container-fluid" style="height: 76.4px">
+        <div class="container-xxl fixed-top bg-light" style="z-index: 998">
+          <div class="row py-3 px-5 nav1">
+            <div class="col-2">
+              <img src="./img/Logo.png" alt="" />
+            </div>
+            <div class="col-7 d-none d-xl-flex align-items-center">
+              <div
+                class="
+                  d-flex
+                  flex-nowrap flex-row
+                  justify-content-around
+                  align-items-center
+                  w-100
+                "
+              >
+                <ul class="nav d-flex justify-content-around">
+                  <li class="nav-item item1">
+                    <a class="nav-link" id="nav-l" href="#">Desitnations </a>
+                  </li>
+                  <li class="nav-item item1">
+                    <a class="nav-link" href="#">Hotels</a>
+                  </li>
+                  <li class="nav-item item1">
+                    <a class="nav-link" href="#">Flights</a>
+                  </li>
+                  <li class="nav-item item1">
+                    <a class="nav-link" href="#">Bookings</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
 
-    <div class="container-fluid" style="height: 76.4px">
-      <div class="container-xxl fixed-top bg-light" style="z-index: 998">
-        <div class="row py-3 px-5 nav1">
-          <div class="col-2">
-            <img src="./img/Logo.png" alt="" />
-          </div>
-          <div class="col-7 d-none d-xl-flex align-items-center">
             <div
               class="
-                d-flex
-                flex-nowrap flex-row
-                justify-content-around
+                col-3
+                d-none d-xl-flex
                 align-items-center
-                w-100
+                justify-content-around
               "
             >
-              <ul class="nav d-flex justify-content-around">
-                <li class="nav-item item1">
-                  <a class="nav-link" id="nav-l" href="#">Desitnations </a>
-                </li>
-                <li class="nav-item item1">
-                  <a class="nav-link" href="#">Hotels</a>
-                </li>
-                <li class="nav-item item1">
-                  <a class="nav-link" href="#">Flights</a>
-                </li>
-                <li class="nav-item item1">
-                  <a class="nav-link" href="#">Bookings</a>
-                </li>
-              </ul>
+              <a href="#" class="nav-link">Login</a>
+              <a href="#" class="btn btn-light">Sign Up</a>
+              <a href="#">
+                <select
+                  class="form-select"
+                  aria-label="Default select example"
+                  style="cursor: pointer"
+                >
+                  <option value="eng">Eng</option>
+                  <option value="uzb">UZB</option>
+                  <option value="rus">Rus</option>
+                </select>
+              </a>
             </div>
-          </div>
-
-          <div
-            class="
-              col-3
-              d-none d-xl-flex
-              align-items-center
-              justify-content-around
-            "
-          >
-            <a href="#" class="nav-link">Login</a>
-            <a href="#" class="btn btn-light">Sign Up</a>
-            <a href="#">
-              <select
-                class="form-select"
-                aria-label="Default select example"
-                style="cursor: pointer"
+            <div class="d col-md-8 col-10 d-xl-none d-flex justify-content-end">
+              <button
+                class="btn get-btn0"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
               >
-                <option value="eng">Eng</option>
-                <option value="uzb">UZB</option>
-                <option value="rus">Rus</option>
-              </select>
-            </a>
-          </div>
-          <div class="d col-md-8 col-10 d-xl-none d-flex justify-content-end">
-            <button
-              class="btn get-btn0"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasRight"
-              aria-controls="offcanvasRight"
-            >
-              Menu
-            </button>
-            <div
-              class="offcanvas offcanvas-end"
-              tabindex="-1"
-              id="offcanvasRight"
-              aria-labelledby="offcanvasRightLabel"
-            >
-              <div class="offcanvas-header">
-                <h5 id="offcanvasRightLabel">Menu</h5>
-                <button
-                  type="button"
-                  class="btn-close text-reset"
-                  data-bs-dismiss="offcanvas"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="offcanvas-body">
-                <div class="d-flex flex-nowrap flex-row justify-content-center">
-                  <ul
-                    class="
-                      nav
-                      nav1
-                      d-flex
-                      w-100
-                      flex-column
-                      justify-content-center
-                    "
+                Menu
+              </button>
+              <div
+                class="offcanvas offcanvas-end"
+                tabindex="-1"
+                id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel"
+              >
+                <div class="offcanvas-header">
+                  <h5 id="offcanvasRightLabel">Menu</h5>
+                  <button
+                    type="button"
+                    class="btn-close text-reset"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div
+                    class="d-flex flex-nowrap flex-row justify-content-center"
                   >
-                    <li class="nav-item">
-                      <a class="nav-link" id="nav-l" href="#">Desitnations </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Hotels</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Flights</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Bookings</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link w-100">Login</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="btn btn-light nav-link">Sign Up</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">
-                        <select
-                          class="form-select"
-                          aria-label="Default select example"
-                          style="cursor: pointer"
-                        >
-                          <option value="eng">Eng</option>
-                          <option value="uzb">UZB</option>
-                          <option value="rus">Rus</option>
-                        </select>
-                      </a>
-                    </li>
-                  </ul>
+                    <ul
+                      class="
+                        nav
+                        nav1
+                        d-flex
+                        w-100
+                        flex-column
+                        justify-content-center
+                      "
+                    >
+                      <li class="nav-item">
+                        <a class="nav-link" id="nav-l" href="#"
+                          >Desitnations
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Hotels</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Flights</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Bookings</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#" class="nav-link w-100">Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#" class="btn btn-light nav-link">Sign Up</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#" class="nav-link">
+                          <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            style="cursor: pointer"
+                          >
+                            <option value="eng">Eng</option>
+                            <option value="uzb">UZB</option>
+                            <option value="rus">Rus</option>
+                          </select>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
@@ -144,14 +149,20 @@
         </div>
       </div>
     </div>
-
     <!-- navbar end -->
     <!-- travel start -->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 d-flex justify-content-center flex-column h-100">
-          <h3>Best Destinations around the world</h3>
-          <h1>Travel, enjoy and live a new and full life</h1>
+    <div id="travel" class="container">
+      <div id="travel-items" class="row">
+        <div
+          id="travel-item1"
+          class="col-md-6 d-flex justify-content-center flex-column h-100 pt-5"
+        >
+          <h3 class="text-uppercase fs-6">
+            Best Destinations around the world
+          </h3>
+          <h1 class="color-main3 fw-bold">
+            Travel, enjoy and live a new and full life
+          </h1>
           <p>
             Built Wicket longer admire do barton vanity itself do in it.
             Preferred to sportsmen it engrossed listening. Park gate sell they
@@ -194,6 +205,89 @@
       </div>
     </div>
     <!-- travel end -->
+    <!-- category start -->
+    <div id="category" class="container mt-4 mb-5">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-7">
+          <div
+            id="category-items"
+            class="d-flex align-items-center flex-column justify-content-center"
+          >
+            <h4 style="color: #5e6282" class="fs-6">CATEGORY</h4>
+            <p style="color: #14183e" class="fs-1 fw-bold">
+              We Offer Best Services
+            </p>
+          </div>
+        </div>
+        <div
+          class="
+            col-md-3
+            d-flex
+            justify-content-md-end justify-content-center
+            position-relative
+          "
+        >
+          <img
+            id="imgStart"
+            class="position-absolute"
+            style="margin-right: -70px; width: 153px; height: 166px"
+            src="./img/starts.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="cards" class="row">
+        <div
+          id="card-item"
+          class="col-md-3 col-12 d-flex flex-column align-items-center"
+          style="height: 314px; z-index: 888"
+        >
+          <img class="w-50 mb-3" src="./img/antena.png" alt="" />
+          <h5>Calculated Weather</h5>
+          <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+        </div>
+        <div
+          id="card-item"
+          class="
+            col-md-3 col-12
+            d-flex
+            flex-column
+            align-items-center
+            position-relative
+          "
+          style="height: 314px"
+          style="z-index: 12"
+        >
+          <img src="./img/samolyot.png" alt="" />
+          <h5>Best Flights</h5>
+          <p>Engrossed listening. Park gate sell they west hard for the.</p>
+        </div>
+        <div
+          id="card-item"
+          class="col-md-3 col-12 d-flex flex-column align-items-center"
+          style="height: 314px"
+        >
+          <img class="mb-3" src="./img/mikrofon.png" alt="" />
+          <h5>Local Events</h5>
+          <p>
+            Barton vanity itself do in it. Preferd to men it engrossed
+            listening.
+          </p>
+        </div>
+        <div
+          id="card-item"
+          class="col-md-3 col-12 d-flex flex-column align-items-center"
+          style="height: 314px"
+        >
+          <img class="mb-3" src="./img/settings.png" alt="" />
+          <h5>Customization</h5>
+          <p>We deliver outsourced aviation services for military customers</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- category end -->
     <script src="./js/bundle.js"></script>
   </body>
 </html>

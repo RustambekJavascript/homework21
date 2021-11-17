@@ -1,5 +1,5 @@
 @import "color";
-
+@import "font";
 a {
   color: #212832 !important;
 }
@@ -10,5 +10,74 @@ a {
 #a1 {
   a {
     color: $color-main1 !important;
+  }
+}
+
+.color-main2 {
+  color: $color-main2;
+}
+
+.color-main3 {
+  color: $color-main3;
+}
+
+// travel start
+#travel {
+  #travel-items {
+    #travel-item1 {
+      h3 {
+        color: $color-main2;
+      }
+      h1 {
+        letter-spacing: -5px;
+        font-size: 64px;
+        font-family: font1;
+      }
+    }
+  }
+}
+
+// category start
+#category {
+  #cards {
+    #card-item:nth-child(2) {
+      border-bottom-left-radius: 36px;
+      background-color: white;
+      box-shadow: 1px 0px 10px #efefef;
+    }
+    #card-item {
+      overflow: hidden;
+      img {
+        transition: 0.5s ease;
+        cursor: pointer;
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+      h5 {
+        font-family: font4;
+        font-size: 1.5rem !important;
+      }
+      p {
+        padding: 5px 15px;
+        color: #1e1d4c;
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #category {
+    #cards {
+      #card-item {
+        img {
+          transform: translateY(10px);
+        }
+      }
+    }
+  }
+  #imgStart {
+    display: none;
   }
 }

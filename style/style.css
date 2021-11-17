@@ -1,3 +1,23 @@
+@font-face {
+  font-family: font1;
+  src: url("../font/Volkhov-Bold.ttf");
+}
+
+@font-face {
+  font-family: font2;
+  src: url("../font/Volkhov-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: font3;
+  src: url("../font/Volkhov-Italic.ttf");
+}
+
+@font-face {
+  font-family: font4;
+  src: url("../font/Volkhov-Regular.ttf");
+}
+
 a {
   color: #212832 !important;
 }
@@ -8,5 +28,66 @@ a {
 
 #a1 a {
   color: #686d77 !important;
+}
+
+.color-main2 {
+  color: #df6951;
+}
+
+.color-main3 {
+  color: #181e4b;
+}
+
+#travel #travel-items #travel-item1 h3 {
+  color: #df6951;
+}
+
+#travel #travel-items #travel-item1 h1 {
+  letter-spacing: -5px;
+  font-size: 64px;
+  font-family: font1;
+}
+
+#category #cards #card-item:nth-child(2) {
+  border-bottom-left-radius: 36px;
+  background-color: white;
+  -webkit-box-shadow: 1px 0px 10px #efefef;
+          box-shadow: 1px 0px 10px #efefef;
+}
+
+#category #cards #card-item {
+  overflow: hidden;
+}
+
+#category #cards #card-item img {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#category #cards #card-item img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#category #cards #card-item h5 {
+  font-family: font4;
+  font-size: 1.5rem !important;
+}
+
+#category #cards #card-item p {
+  padding: 5px 15px;
+  color: #1e1d4c;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  #category #cards #card-item img {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  #imgStart {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
