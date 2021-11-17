@@ -67,6 +67,16 @@ a {
   }
 }
 
+#hidden {
+  overflow: hidden;
+
+  img {
+    &:hover {
+      transform: scale(1.06);
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   #category {
     #cards {

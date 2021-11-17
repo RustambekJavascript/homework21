@@ -81,6 +81,15 @@ a {
   font-size: 1rem;
 }
 
+#hidden {
+  overflow: hidden;
+}
+
+#hidden img:hover {
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
+}
+
 @media screen and (max-width: 768px) {
   #category #cards #card-item img {
     -webkit-transform: translateY(10px);
